@@ -8,6 +8,7 @@ const Tasks = ({ tasks, onDelete, onToggle }) => {
 
   return (
     <>
+      {/* header ra footer paxi layout component ma hala ani tesola routes hala */}
       <Header
         onAdd={() => setShowAddTask(!showAddTask)}
         showAdd={showAddTask}
